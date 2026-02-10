@@ -7,7 +7,7 @@ import requests
 # ========================
 # CONFIG
 # ========================
-BOT_TOKEN = "8490643516:AAFlTEA7Uk4-4IFZ6qW-twFFFajKlchb5ms"
+BOT_TOKEN = "8538371456:AAGBBMp-lIasi-B_mwLn4hyohCNf7Fx5nt8"
 OWNER_ID = 8554393063
 
 API_FILE = "apis.json"
@@ -161,8 +161,8 @@ def process_next(message):
             except:
                 pass
 
-        bot.send_message(message.chat.id, f"Round {round_no} completed. ⏳ Wait 30 sec…")
-        time.sleep(30)
+        bot.send_message(message.chat.id, f"Round {round_no} completed. ⏳ Wait 10 sec…")
+        time.sleep(10)
 
     final_text = (
         f"🔥 UID: {uid}\n"
