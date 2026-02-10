@@ -7,7 +7,7 @@ import requests
 # ========================
 # CONFIG
 # ========================
-BOT_TOKEN = "8160350060:AAHivGpgD7XO7rjXxACV4JwUvW_oVlpRYD4"
+BOT_TOKEN = "8490643516:AAFlTEA7Uk4-4IFZ6qW-twFFFajKlchb5ms"
 OWNER_ID = 8554393063
 
 API_FILE = "apis.json"
